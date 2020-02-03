@@ -24,6 +24,8 @@ gem 'rails-controller-testing', group: :test
 
 gemspec
 
+gem 'solidus_support', github: 'solidusio/solidus_support'
+
 # Use a local Gemfile to include development dependencies that might not be
 # relevant for the project or for other contributors, e.g.: `gem 'pry-debug'`.
 eval_gemfile 'Gemfile-local' if File.exist? 'Gemfile-local'
